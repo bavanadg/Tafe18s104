@@ -12770,7 +12770,7 @@
   },
   "libraries": {
     "CrossPieCharts.UWP/1.0.2": {
-      "sha512": "i1wk9HbklmCpmszwXL27UuZ5MYD5rwgXvl+IBPI2E/+g4LE7IHIEbTH2Tb/ZTzgaxc+BTPVv4M7pSybpSq1K+A==",
+      "sha512": "aPMduo0K8U4uEZKS+7lJXnYWAkdNJ2UE0Qko9XfXai3/dtN1gPdjHM8te3zYOX2MPv1KPeG8HQgY5D8mM3xOhA==",
       "type": "package",
       "files": [
         "CrossPieCharts.UWP.1.0.2.nupkg.sha512",
