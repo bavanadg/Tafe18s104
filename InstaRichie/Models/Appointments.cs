@@ -31,18 +31,18 @@ namespace StartFinance.Models
 		public int appointmentID { get; set; }
 
 		[NotNull]
-		public String eventName { get; set; }
+		public string eventName { get; set; }
 
 		[NotNull]
-		public String location { get; set; }
+		public string location { get; set; }
 
 		[NotNull]
-		public DateTime eventDate { get; set; }
+		public string eventDate { get; set; }
 
 		[NotNull]
-		public DateTime StartTime { get; set; }
+		public string startTime { get; set; }
 
 		[NotNull]
-		public DateTime EndTime { get; set; }
+		public string endTime { get; set; }
 	}
 }
