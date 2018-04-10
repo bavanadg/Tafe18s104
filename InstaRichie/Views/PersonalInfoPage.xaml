@@ -12,6 +12,12 @@
     You should have received a copy of the GNU General Public License
     along with Start Finance.  If not, see <http://www.gnu.org/licenses/>.
 
+    
+    
+    start_Finance:
+    feature branch: feat_PersonalInfo
+    developer name: Isaac Vanderwal
+    feature description: a feature branch in which users may add, update and delete their personal info details.
 -->
 
 <Page
