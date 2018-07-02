@@ -24,5 +24,8 @@ namespace StartFinance.Models
         [NotNull]
         public double priceQuoted { get; set; }
 
+        [NotNull]
+        public string address { get; set; }
+
     }
 }

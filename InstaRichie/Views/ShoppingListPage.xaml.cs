@@ -68,6 +68,7 @@ namespace StartFinance.Views
                         nameOfItem = NameOfItem.Text,
                         shoppingDate = Date(),
                         priceQuoted = Convert.ToDouble(PriceQuoted.Text),
+                        address = Address.Text,
 
                     });
                     Results();
@@ -142,8 +143,9 @@ namespace StartFinance.Views
                     "UPDATE ShoppingList SET shopName = '" +
                     ShopName.Text + "', nameofItem = '" +
                     NameOfItem.Text + "', shoppingDate = '" +
-                    Date() + "', priceQuoted = '" +
-                    Convert.ToDouble(PriceQuoted.Text) + "' WHERE shoppingItemID = " + ItemID);
+                    Date() + "', priceQuoted = '" +                  
+                    Convert.ToDouble(PriceQuoted.Text) + "' WHERE shoppingItemID = " +
+                     Address.Text + ", address = '" + ItemID);
 
                     Results();
                 }
@@ -170,6 +172,7 @@ namespace StartFinance.Views
                 NameOfItem.Text = ((ShoppingList)ItemList.SelectedItem).nameOfItem;
                 ShoppingDate.Date = Convert.ToDateTime(((ShoppingList)ItemList.SelectedItem).shoppingDate);
                 PriceQuoted.Text = ((ShoppingList)ItemList.SelectedItem).priceQuoted.ToString();
+                Address.Text = ((ShoppingList)ItemList.SelectedItem).address.ToString();
             }
 
         }
